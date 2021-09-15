@@ -1,22 +1,22 @@
 <template>
-  <div id="vue-microfront-podium">    
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="vue-hotel-list">    
+    <HotelList/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HotelList from './components/HotelList.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HotelList
   }
 }
 </script>
 
 <style>
-#vue-microfront-podium {
+#vue-hotel-list {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
